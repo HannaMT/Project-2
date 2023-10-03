@@ -117,6 +117,7 @@ const App = () => {
     <div className="App">
       <h1>Guess The Animal</h1>
       <h3>Can you guess the animal in the pictures? Lets find out!</h3>
+      <h3>Number of Cards in the Stack: 16</h3>
       <div id = "flipcard">
         <div id="card" className = {isFront ? '' : 'flipped'} onClick={Flip}>
           <div id="backcard">
